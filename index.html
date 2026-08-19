@@ -1,19 +1,18 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>W-DRIVER</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        p { color: #666; font-size: 18px; }
-        .btn { display: inline-block; padding: 15px 25px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; }
-    </style>
-</head>
-<body>
-    <h1>Bem-vindo ao W-DRIVER</h1>
-    <p>Aplicativo para Passageiros e Motoristas</p>
-    <a href="#" class="btn">Acessar Plataforma</a>
-</body>
+<!doctype html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>W-DRIVER 2.0 – Mobilidade & Entregas</title>
+    <meta name="description" content="Plataforma de Mobilidade Urbana e Entregas: W-BIKE, W-MOTO, W-CARRO, W-TÁXI e W-BANK." />
+    <meta name="theme-color" content="#000000" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  </head>
+  <body class="bg-black text-white antialiased selection:bg-[#A8E63A] selection:text-black overflow-x-hidden font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

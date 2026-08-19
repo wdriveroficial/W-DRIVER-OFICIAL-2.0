@@ -1,0 +1,6 @@
+{
+  "name": "W-DRIVER 2.0",
+  "description": "Plataforma profissional de mobilidade urbana e entregas com W-BIKE, W-MOTO, W-CARRO, W-TÁXI, W-BANK e Central de Operações.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
